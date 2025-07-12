@@ -1,0 +1,165 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared style */
+.secondery-bg{
+    background-color: rgb(12, 22, 202);
+}
+.text-primary{
+    color: rgb(255, 81, 0);
+}
+.dark-2{
+    color:rgb(177, 189, 9) ;
+}
+
+.btn-primary{
+    background-color:yellowgreen ;
+    font-weight: bold;
+    color: red;
+    padding: 18px 35px;
+    border-radius: 5px;
+
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(16, 189, 211);
+    
+}
+
+.section-description{
+    font-size: 18px;
+    color: rgb(54, 49, 136);
+    background-attachment: fixed;
+    
+}
+/* header */
+.header{
+    background-image: url('./images/developer.png'),url('./images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    margin: 20px;
+}
+.nav-title{
+     font-weight: 800;
+     font-size: 450;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content:space-between ;
+    margin:0 35px 0 230px;
+}
+.banner-content{
+    max-width: 580;
+    font-weight:600 ;
+}
+.banner-greetings{
+    font size: 45px;
+    font weight: 600px;
+}
+.banner-title{
+    font-weight:bold ;
+    font-family: 85px;
+}
+.banner-profile-pic{
+    width: 600px;
+}
+
+/* main styles */
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.main section{
+    margin margin-top: 130 px;
+}
+
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 130px;
+    background-color: rgb(231, 34, 221);
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+}
+.item-description{
+    font-weight: 600;
+    display: flex;
+    background-color: darkmagenta;
+    color: aliceblue;
+    
+
+}
+/* skills section styles */
+.skills-container{
+    display: flex;
+    gap:24px;
+}
+.skill{
+    padding: 30px;
+    box-shadow:0px 6px 50px 0px ;color: black;
+}
+
+/* resume section style */
+.resume-container{
+   display: flex;
+   gap: 24px;
+}
+   .experience-description,.experience-sub-title{
+    color: azure;
+
+
+   }
+   /* footer styles */
+   .footer{
+    padding: 130px,200px;
+    display: flex;
+    gap: 100px;
+   }
+   .footer-column{
+    width: 50%;
+   }
+  footer input[type="text"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    width: 100%;
+    padding: 10px,20px;
+    margin-bottom: 24px;
+
+  }
