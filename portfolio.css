@@ -10,13 +10,13 @@
 
 /* shared style */
 .secondery-bg{
-    background-color: rgb(12, 22, 202);
+    background-color: rgb(90, 139, 203);
 }
 .text-primary{
-    color: rgb(255, 81, 0);
+    color: rgb(235, 121, 0);
 }
 .dark-2{
-    color:rgb(177, 189, 9) ;
+    color:rgb(179, 208, 215) ;
 }
 
 .btn-primary{
@@ -108,7 +108,7 @@ nav li a{
     border-radius: 10px;
     padding: 130px 150px;
     margin-top: 130px;
-    background-color: rgb(231, 34, 221);
+    background-color: rgb(235, 141, 18);
 }
 .about-items{
     display: flex;
